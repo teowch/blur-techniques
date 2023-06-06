@@ -183,7 +183,7 @@ def main():
     img = cv2.imread(INPUT_IMAGE, cv2.IMREAD_COLOR)
 
     if img is None:
-        print("Cannot open image")
+        print("Cannot open the image.")
         sys.exit()
 
     img = img.reshape((img.shape[0], img.shape[1], 3))
