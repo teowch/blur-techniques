@@ -1,3 +1,8 @@
+# ===============================================================================
+# Author: Teodoro Valença de Souza Wacholski
+# Universidade Tecnológica Federal do Paraná
+# ===============================================================================
+
 import sys
 import timeit
 import numpy as np
@@ -9,13 +14,13 @@ INPUT_IMAGE = "tree.jpg"
 # This value must be an odd number.
 # Note that the larger is the BLUR_SIZE, the longer the algorithm takes.
 # Increasing the BLUR_SIZE will show how drastic is the difference in time complexity between the algorithms
-BLUR_SIZE = 5
+BLUR_SIZE = 55
 
 # Here you can choose which algorithms you want to run.
 # All you need to do is set to True or False
 EXEC = {
-    "boxBlur": True,
-    "separableBoxBlur": True,
+    "boxBlur": False,
+    "separableBoxBlur": False,
     "integralBlur": True
 }
 
